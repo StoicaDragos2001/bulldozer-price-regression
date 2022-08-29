@@ -26,5 +26,4 @@ I tried training a Random Forest Regressor model because it can handle large dat
 ## Model Performance 
 After experimenting with a max_sample of 10000 and using RandomizedSearchCV for hyperparamater tuning, i retrained the model on the whole training dataset, getting a RMSLE(root mean square log error) score of 0.399 on the validation dataset.
 A feature importance figure is shown below.
-![download](https://user-images.githubusercontent.com/79250297/187263216-f41c7e65-cc51-4261-b8a3-94f768a8bf2d.png)
 
