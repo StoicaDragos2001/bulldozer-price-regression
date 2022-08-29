@@ -7,3 +7,11 @@
 * **Python Version**: 3.8.8
 * **Packages**: pandas, numpy, sklearn, matplotlib, seaborn
 * **Data Source**: https://www.kaggle.com/c/bluebook-for-bulldozers/overview
+## Data Cleaning
+After getting the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+* Parsed sale dates to datetime64 dtype.
+* Sorted the data by sale dates.
+* Added datetime parameters (saleYear, saleMonth, saleDay, saleDayOfWeek, saleDateOfYear) in order to find more possible patterns in our data then dropped the saledate column.
+* Filled numerical missing values with median.
+* Converted columns with strings to category, then encoded the categories (0 for missing values).
+* Added binary columns to indicate whether sample had missing value.
