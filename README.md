@@ -17,6 +17,7 @@ After getting the data, I needed to clean it up so that it was usable for our mo
 * Added binary columns to indicate whether sample had missing value.
 ## EDA
 I looked at the relationships between certain features found in our data. Below are a few highlights from the analysis made.
+
 ![download](https://user-images.githubusercontent.com/79250297/187257951-ef55f810-8077-492f-890b-1ff776e07680.png)
 ![download](https://user-images.githubusercontent.com/79250297/187258159-18fa8653-dabc-479e-9eb0-2e1aef197525.png)
 ## Model Building
